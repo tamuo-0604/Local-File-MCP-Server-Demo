@@ -1,0 +1,14 @@
+# Node
+node_modules/
+
+# Secrets
+.env
+
+# Demo runtime artifacts
+demo-data/uploads/
+demo-data/.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
