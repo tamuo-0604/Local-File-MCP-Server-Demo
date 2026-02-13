@@ -1,6 +1,6 @@
 # Local-File-MCP-Server-Demo（ユーザー向け手順書：VS Code でツール導入 → clone → .env → npm run dev）
 
-この README は、リポジトリを **PowerShell で `git clone`** して、**`.env` を作成**し、**`npm run dev` で起動**するまでを、**0〜10 の手順**で 1 つにまとめたものです。 【1-d09037】  
+この README は、リポジトリを **PowerShell で `git clone`** して、**`.env` を作成**し、**`npm run dev` で起動**するまでを、**0〜10 の手順**で 1 つにまとめたものです。 
 （Windows + VS Code + PowerShell 前提）
 
 対象リポジトリ：
