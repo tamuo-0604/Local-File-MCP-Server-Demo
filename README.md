@@ -20,13 +20,13 @@ VS Code がまだ無い場合は、まず VS Code をインストールしてく
   ```powershell
   winget install -e --id Microsoft.VisualStudioCode
   ```
-- `winget` 自体が無い場合は、Windows の **App Installer** を入れることで利用可能になります（WinGet は App Installer の一部として提供）。 【4-3af988】
+- `winget` 自体が無い場合は、Windows の **App Installer** を入れることで利用可能になります（WinGet は App Installer の一部として提供）。
 
 ---
 
 ### 0-2. VS Code の統合ターミナル（PowerShell）を開く
 1. VS Code を起動し、何かフォルダ（例：`C:\Copilot_Studio_Demo`）を開きます  
-2. メニュー **View > Terminal**（または `Ctrl + \``）で統合ターミナルを開きます 【2-7085b1】  
+2. メニュー **View > Terminal**（または `Ctrl + \``）で統合ターミナルを開きます 
 3. ターミナルのシェルが PowerShell になっていることを確認します（違う場合でも PowerShell を選べばOK）
 
 ---
@@ -76,7 +76,7 @@ VS Code の統合ターミナルで実行：
 winget install --id Git.Git -e --source winget
 ```
 
-この `winget install --id Git.Git -e --source winget` は Git 公式（Install for Windows）でも案内されています。 【8-da0865】
+この `winget install --id Git.Git -e --source winget` は Git 公式（Install for Windows）でも案内されています。
 
 インストール後、**VS Code を再起動**（またはターミナルを作り直す）してから確認：
 
@@ -229,7 +229,7 @@ netstat -ano | findstr :3110
 ---
 
 ### 10-2. `node` や `git` が見つからない
-- `winget` でインストール後は **VS Code を再起動**（または新しいターミナルを開き直す）してください。 【2-7085b1】  
+- `winget` でインストール後は **VS Code を再起動**（または新しいターミナルを開き直す）してください。  
 - それでもダメなら、以下で確認：
 ```powershell
 node -v
@@ -240,15 +240,15 @@ git --version
 ---
 
 ### 10-3. Port Forward の URL にアクセスできない
-- サーバーが起動しているか（`npm run dev` が動作中か）確認 【10-875787】  
-- Private の場合はアクセス側でサインインが必要なことがあります 【10-25f9db】  
+- サーバーが起動しているか（`npm run dev` が動作中か）確認  
+- Private の場合はアクセス側でサインインが必要なことがあります   
 
 ---
 
 ## 参考リンク（公式）
-- Node.js ダウンロード（公式）：https://nodejs.org/en/download/ 【11-f01cac】  
-- Git for Windows（公式）：https://git-scm.com/install/windows 【8-79f907】  
-- VS Code 統合ターミナル：https://code.visualstudio.com/docs/terminal/getting-started 【2-7085b1】  
-- VS Code Port Forwarding：https://code.visualstudio.com/docs/debugtest/port-forwarding 【10-c98b75】  
-- VS Code で MCP servers を使う（注意事項含む）：https://code.visualstudio.com/docs/copilot/customization/mcp-servers 【9-014dd6】  
-- WinGet（App Installer として提供）：https://learn.microsoft.com/en-us/windows/package-manager/winget/ 【4-3af988】  
+- Node.js ダウンロード（公式）：https://nodejs.org/en/download/ 
+- Git for Windows（公式）：https://git-scm.com/install/windows   
+- VS Code 統合ターミナル：https://code.visualstudio.com/docs/terminal/getting-started 
+- VS Code Port Forwarding：https://code.visualstudio.com/docs/debugtest/port-forwarding 
+- VS Code で MCP servers を使う（注意事項含む）：https://code.visualstudio.com/docs/copilot/customization/mcp-servers 
+- WinGet（App Installer として提供）：https://learn.microsoft.com/en-us/windows/package-manager/winget/ 
